@@ -3,7 +3,7 @@ entity datentor is
 		e, g: in std_logic;
 		a: out std_logic
 		);
-end entity Datentor;
+end entity datentor;
 
 
 process(e,g) is
