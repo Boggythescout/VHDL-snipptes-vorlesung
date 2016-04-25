@@ -5,12 +5,14 @@ entity datentor is
 		);
 end entity datentor;
 
-
-process(e,g) is
+architecture behav of datentor is
 begin
-	if g='1' then 
-		a<=e;
-	else
-		a<='Z';
-	end if;
-end process;
+	process(e,g) is
+	begin
+		if g='1' then 
+			a<=e;
+		else
+			a<='Z';
+		end if;
+	end process;
+end architecture;
